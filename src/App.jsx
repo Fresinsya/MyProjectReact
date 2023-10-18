@@ -1,12 +1,18 @@
 import { useState } from 'react'
 import './index.css'
+import Counter from './components/counter'
+import Login from './components/login'
+import ListHewan from './components/listHewan'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <header>
+    {/* <Counter /> */}
+    {/* <Login /> */}
+    <ListHewan />
+      {/* <header>
         <nav>
           <ul>
             <li> menu </li>
@@ -14,7 +20,7 @@ function App() {
             <li> about </li>
           </ul>
         </nav>
-      </header>
+      </header> */}
     </>
   )
 }
